@@ -9,11 +9,8 @@ export const Providers = ({children}: CartProps) =>{
     
     return(
         <>
-
             <CartProvider>
-               
-                    {children}
-                
+                    {children}      
             </CartProvider>
         </>
     )
